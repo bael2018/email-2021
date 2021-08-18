@@ -1,0 +1,12 @@
+
+.help{
+    width: 100%;
+    margin: 30px 0;
+    background: red;
+    border-radius: 10px;
+    color: #ffffff;
+    display: none;
+    font-weight: 500;
+    padding: 15px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,50 @@
+
+
+.email{
+    width: 50%;
+    height: 60vh;
+    left: 25%;
+    top: 20vh;
+    position: absolute;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px 6px rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.email_title{
+    color: rgb(56, 56, 56);
+    margin: 0px;
+    font-size: 30px;
+}
+
+.email form{
+    margin-top: 35px;
+}
+
+.email form input{
+    width: 99%;
+    border: none;
+    color: rgb(0, 204, 255);
+    font-size: 18px;
+    outline: none;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(126, 126, 126);
+}
+
+.email form input:focus{
+    border-bottom: 1px solid #00ccff;
+}
+
+.email form button{
+    width: 100%;
+    background: rgb(0, 204, 255);
+    cursor: pointer;
+    padding: 15px 0;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
