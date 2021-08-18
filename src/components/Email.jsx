@@ -41,7 +41,7 @@ const Email = () => {
             }
         })
 
-        if(email == ''){
+        if(email === ''){
             setValid(false)
             setShowWarning(true)
             setWarning('Введите адрес электронной почты !')
@@ -49,7 +49,7 @@ const Email = () => {
             setShowWarning(true)
             setValid(false)
             setWarning('Отсутствуюет символ .')
-        }else if(symbol == -1){
+        }else if(symbol === -1){
             setShowWarning(true)
             setValid(false)
             setWarning('Отсутствуюет символ @')
