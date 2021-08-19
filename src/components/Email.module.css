@@ -19,7 +19,7 @@
 }
 
 .email form{
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .email form input{
@@ -28,7 +28,7 @@
     color: rgb(0, 204, 255);
     font-size: 18px;
     outline: none;
-    padding: 10px 0;
+    padding: 15px 0;
     border-bottom: 1px solid rgb(126, 126, 126);
 }
 
@@ -36,15 +36,13 @@
     border-bottom: 1px solid #00ccff;
 }
 
-.email form button{
-    width: 100%;
-    background: rgb(0, 204, 255);
+.email form p{
+    padding: 5px;
+    border-radius: 5px;
     cursor: pointer;
-    padding: 15px 0;
-    border: none;
-    outline: none;
-    color: white;
-    margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    color: rgb(0, 204, 255);
     font-weight: 500;
+    box-shadow: 0px 0px 3px 3px rgb(241, 241, 241);
 }
